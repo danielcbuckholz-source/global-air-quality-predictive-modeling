@@ -1,63 +1,85 @@
 # Global Air Quality Predictive Modeling
-# Project Overview
 
-This project investigates the relationship between air quality and socioeconomic conditions by integrating global environmental data with World Bank development indicators. The objective was to determine whether socioeconomic variables improve prediction of Air Quality Index (AQI) values while identifying the factors most strongly associated with air pollution.
+A machine learning project analyzing relationships between air quality and socioeconomic indicators using global environmental data.
 
-The project was completed as the capstone for the Master of Science in Data Analytics program at the University of Maryland Global Campus.
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![SQL](https://img.shields.io/badge/SQL-Analytics-orange)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-Machine%20Learning-F7931E)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
-# Objectives
-Integrate multiple public datasets into a unified analytical dataset.
-Perform exploratory data analysis and feature engineering.
-Develop predictive machine learning models.
-Compare model performance.
-Identify important socioeconomic drivers of air quality.
-Present actionable analytical findings.
-Dataset
+---
 
-# Sources included
+## At a Glance
 
-Global Air Pollution Dataset (Kaggle)
-World Bank World Development Indicators
+| Item | Details |
+|------|---------|
+| **Objective** | Predict Air Quality Index (AQI) using socioeconomic indicators |
+| **Dataset Size** | 23,463 observations |
+| **Tech Stack** | Python, SQL, Pandas, Scikit-learn |
+| **Models** | Multiple Linear Regression, Random Forest, Gradient Boosting |
+| **Best Model** | Random Forest Regression |
+| **Status** | Complete |
 
-# Final analytical dataset
+---
 
-23,000+ observations
-Environmental variables
-Economic indicators
-Population metrics
-Industrial activity
-Greenhouse gas emissions
-Technologies
-Python
-Pandas
-NumPy
-Scikit-learn
-SQL
-Matplotlib
-Machine Learning Models
-Multiple Linear Regression
-Random Forest Regression
-Gradient Boosting Regression
+## Skills Demonstrated
 
-# Performance evaluated using
+| Category | Skills |
+|----------|--------|
+| **Programming** | Python, SQL |
+| **Machine Learning** | Multiple Linear Regression, Random Forest, Gradient Boosting |
+| **Data Engineering** | Data Cleaning, Feature Engineering, Data Integration |
+| **Analytics** | Exploratory Data Analysis, Model Evaluation |
+| **Visualization** | Matplotlib |
+| **Tools** | Pandas, Scikit-learn, Jupyter Notebook |
 
-R², 
-RMSE, 
-MAE
-# Key Results
-Successfully integrated multiple public datasets into a unified analytical workflow.
-Random Forest Regression produced the strongest predictive performance.
-Feature importance analysis identified socioeconomic variables contributing most strongly to AQI prediction.
-Developed reproducible preprocessing and modeling workflows supported by executive-level visualizations.
-# Repository Structure
+---
+
+## Business Problem
+
+Government agencies and policymakers need to understand how socioeconomic conditions influence air quality to make informed environmental and public health decisions. This project investigates whether combining environmental and World Bank development indicators can improve prediction of Air Quality Index (AQI) values while identifying the variables most strongly associated with pollution.
+
+---
+
+## Project Highlights
+
+- Integrated more than **23,000** global air quality observations with multiple World Bank socioeconomic datasets.
+- Developed and compared Multiple Linear Regression, Random Forest Regression, and Gradient Boosting Regression models.
+- Evaluated predictive performance using **R², RMSE, and MAE**.
+- Identified the socioeconomic variables most strongly associated with air quality through feature importance analysis.
+- Produced technical documentation, visualizations, and an executive presentation communicating project findings.
+
+---
+
+## Technologies
+
+- Python
+- SQL
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Jupyter Notebook
+
+---
+
+## Repository Structure
+
+```text
+.
 ├── AirQualityAnalysis.ipynb
 ├── Final_Report.pdf
 ├── Presentation.pdf
 ├── requirements.txt
 ├── data/
 └── figures/
-# Future Improvements
-Incorporate weather variables
-Evaluate additional ensemble models
-Deploy an interactive dashboard
-Automate data refresh pipelines
+```
+
+---
+
+## Future Improvements
+
+- Incorporate weather and climate datasets.
+- Evaluate additional ensemble learning models.
+- Develop an interactive dashboard.
+- Automate data ingestion and preprocessing pipelines.
