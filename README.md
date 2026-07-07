@@ -2,13 +2,6 @@
 
 A machine learning project analyzing relationships between air quality and socioeconomic indicators using global environmental data.
 
-![Python](https://img.shields.io/badge/Python-3.12-blue)
-![SQL](https://img.shields.io/badge/SQL-Analytics-orange)
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-Machine%20Learning-F7931E)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
-
----
-
 ## At a Glance
 
 | Item | Details |
